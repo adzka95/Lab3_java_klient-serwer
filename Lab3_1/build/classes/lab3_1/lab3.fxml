@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="30.0" prefWidth="100.0" xmlns:fx="http://javafx.com/fxml/1">
+    
+            
+            <Button layoutX="30" layoutY="320" id="korzen" text="Wybierz folder" />
+            <TreeView layoutX="30" layoutY="10" prefHeight="300" prefWidth="300" id="widok"/>
+            <Label layoutX="30" layoutY ="350" text="Serwer:"/>
+            <TextField layoutX="80" layoutY="350"  id="serwer" text="localhost"/>
+            <Label layoutX="30" layoutY ="380" text="Port:"/>
+            <TextField layoutX="80" layoutY="380"  id="port" text="1234"/>
+            <ProgressBar id="postep" layoutX="30" layoutY="410" prefWidth="340" progress="0.0" />
+            <Label layoutX="30" layoutY ="460" id="komunikaty" />
+            <Label layoutX="30" layoutY ="480" id="komunikaty2" />
+            
+</AnchorPane>
